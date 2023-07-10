@@ -9,7 +9,7 @@ use pocketmine\utils\Config;
 
 class EventListener implements Listener
 {
-
+  private $plugin;
   public function __construct(CoinsAPI $plugin)
   {
     $this->plugin = $plugin;
