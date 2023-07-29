@@ -51,7 +51,7 @@ class CoinsAPI extends PluginBase
     {
         $config = new Config($this->getDataFolder() . "players.yml", Config::YAML);
 
-        $config->set(strtolower($player->getName()), $this->getCoins($player) + $amount);
+        $config->set(strtolower($player->getName()), $this->getCoins($player) - $amount);
         $config->save();
     }
 
