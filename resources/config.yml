@@ -1,4 +1,4 @@
 # CoinsAPI Configuration
 # You can config the plugin from here
 
-StartingAmount: 100 # How much coins should players receive by default on their first join?
+StartingAmount: 0 # How much coins should players receive by default on their first join?
