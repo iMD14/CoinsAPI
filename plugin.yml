@@ -1,6 +1,6 @@
 ---
 name: CoinsAPI
-version: 1.0.2
+version: 1.0.3
 main: iMD14\CoinsAPI\CoinsAPI
 api: 5.0.0
 src-namespace-prefix: iMD14\CoinsAPI
