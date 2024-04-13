@@ -28,7 +28,7 @@ class CoinsAPI extends PluginBase
     public function getCoins(Player $player)
     {
       $config = new Config($this->getDataFolder() . "players.yml", Config::YAML);
-      return $config->get($player->getName());
+      return $config->get(strtolower($player->getName()));
     }
 
     /**
